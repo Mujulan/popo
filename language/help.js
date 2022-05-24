@@ -468,7 +468,7 @@ Berapapun donasi kalian akan sangat berarti 👍
 
 Thanks!
 
-—————「 *DONASI* 」—————
+—————「 *DONASI VIA* 」—————
 
   *❏* Dana : 083861617806
   *❏* Gopay : 083861617806
