@@ -998,6 +998,7 @@ reply(teks)
 break
  case 'vote': {
 if (!m.isGroup) return reply(mess.group)
+if (!isAdmins) return reply(mess.admin)
 if (m.chat in vote) return reply(`_Masih ada vote di chat ini!_\n\n*${prefix}hapusvote* - untuk menghapus vote`)
 if (!q) return reply(`Masukkan Alasan Melakukan Vote, Example: *${prefix + command} Owner Ganteng*`)
 reply(`Vote dimulai!\n\n*${prefix}upvote* - untuk ya\n*${prefix}devote* - untuk tidak\n*${prefix}cekvote* - untuk mengecek vote\n*${prefix}hapusvote* - untuk menghapus vote`)
@@ -1155,6 +1156,7 @@ kagura.sendTextWithMentions(m.chat, teks_vote, m)
 break
 case 'deletevote': case'delvote': case 'hapusvote': {
 if (!m.isGroup) return reply(mess.group)
+if (!isAdmins) return reply(mess.admin)
 if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
 delete vote[m.chat]
 reply('Berhasil Menghapus Sesi Vote Di Grup Ini')
