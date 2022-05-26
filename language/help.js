@@ -10,6 +10,10 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
   📑 Tanggal : *${tanggal}*
   ⏰ Waktu : *${time}*
   🗒 ️Prefix : *Multi Prefix*
+  
+  *NOTE*
+  Jika Bot Tidak Aktif Selama 1/2 Hari Berarti Di Tunggu Dulu
+  Kemungkinan Botnya Lagi Kena Banned Dari Whatsapp
 
  ❏ *GROUP MENU*
  › #linkgroup
@@ -470,9 +474,9 @@ Thanks!
 
 —————「 *DONASI VIA* 」—————
 
-  *❏* Dana : 083861617806
-  *❏* Gopay : 083861617806
-  *❏* Pulsa : 083861617806
+  *❏* Dana : 083826736758
+  *❏* Gopay : 083826736758
+  *❏* Pulsa : 083826736758
 `
 }
 
